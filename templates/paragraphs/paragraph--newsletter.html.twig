@@ -1,7 +1,8 @@
 <div class="newsletter">
   <div class="newsletter__title">{{ content.field_introduction_sentence }}</div>
   <form id="form-newsletter" class="newsletter__form" action="#" method="POST">
-    <input id="email-newsletter" name="email-newsletter" placeholder="{{ content.field_placeholder_newsletter.value }}" type="text">
-    <button type="submit">{{ content.field_submit_button_text.value }}</button>
+    <input id="email-newsletter" name="email-newsletter" placeholder="{{ content.field_placeholder_newsletter|render|striptags|trim }}" type="text">
+    <button type="submit">{{ content.field_submit_button_text|render|striptags|trim }}</button>
   </form>
 </div>
+

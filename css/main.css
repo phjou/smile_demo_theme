@@ -54,6 +54,9 @@
   width: 35%;
 }
 
+#form-newsletter {
+  position: relative;
+}
 .newsletter {
   padding: 14px;
   width: 240px;
@@ -61,7 +64,6 @@
   background-color: #FFF;
   border-bottom: 1px solid #01509b;
 }
-
 .newsletter input {
     border: none;
     padding: 5px 35px 5px 5px;
@@ -71,7 +73,6 @@
     width: 100%;
     border: 1px solid transparent;
 }
-
 .newsletter button {
     position: absolute;
     top: 1px;
