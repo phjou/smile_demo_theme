@@ -44,3 +44,41 @@
 .block-catalogue__item-title p::before {
     content: "> ";
 }
+.paragraph--type--text-with-right-column {
+  display: flex;
+}
+.paragraph--type--text-with-right-column .field--name-field-paragraph-text {
+  width: 65%;
+}
+.paragraph--type--text-with-right-column .field--name-field-paragraph-right-column {
+  width: 35%;
+}
+
+.newsletter {
+  padding: 14px;
+  width: 240px;
+  float: left;
+  background-color: #FFF;
+  border-bottom: 1px solid #01509b;
+}
+
+.newsletter input {
+    border: none;
+    padding: 5px 35px 5px 5px;
+    background-color: #F3F3F3;
+    text-transform: uppercase;
+    color: #7f7f7f;
+    width: 100%;
+    border: 1px solid transparent;
+}
+
+.newsletter button {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    bottom: 0;
+    padding: 5px 10px;
+    background: #527db2;
+    color: #FFF;
+    border: none;
+}
