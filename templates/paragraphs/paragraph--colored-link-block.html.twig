@@ -1,0 +1,7 @@
+<div class="flat-bloc ouvrir-magasin" style="background-color: {{ content.field_color_block|render|striptags|trim }};">
+  <div class="flat-bloc__inner">
+    <h4 class="flat-bloc__inner__title">{{ content.field_block_title }}</h4>
+    <a class="flat-bloc__inner__button" href="{{ content.field_block_link.0['#url'] }}" onMouseOver="this.style.color='{{ content.field_color_block|render|striptags|trim }}'" onMouseOut="this.style.color='#FFF'">{{ content.field_block_link.0['#title'] }} <i class="fa fa-angle-right"></i></a>
+    </div>
+</div>
+
