@@ -1,0 +1,23 @@
+uuid: c3e7bb0c-5d43-440d-b3bc-c01289658b3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - smile_demo_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: smile_demo_theme_breadcrumbs
+theme: smile_demo_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
+

@@ -1,0 +1,23 @@
+uuid: 6624b830-8eca-48a1-8703-667a46b8f613
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - smile_demo_theme
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: smile_demo_theme_search
+theme: smile_demo_theme
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }
+

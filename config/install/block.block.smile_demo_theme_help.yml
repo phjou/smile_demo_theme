@@ -1,0 +1,23 @@
+uuid: c3e2f2e5-e082-4e38-86de-a39639966a94
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - smile_demo_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: smile_demo_theme_help
+theme: smile_demo_theme
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
+
