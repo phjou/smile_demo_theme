@@ -1,0 +1,27 @@
+uuid: cdac0260-3807-4d0d-8d50-9a7f6dc6ff27
+langcode: en
+status: true
+dependencies:
+  module:
+    - smile_demo
+    - system
+  theme:
+    - smile_demo_theme
+id: magentouserblock
+theme: smile_demo_theme
+region: content
+weight: -2
+provider: null
+plugin: magento_user_block
+settings:
+  id: magento_user_block
+  label: 'Magento User block'
+  provider: smile_demo
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
+    context_mapping: {  }
+
