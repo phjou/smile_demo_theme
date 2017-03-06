@@ -3,7 +3,7 @@ type: theme
 description: 'The demo theme for Smile'
 package: Smile
 core: '8.x'
-base theme: bartik
+base theme: drupal8_zymphonies_theme
 libraries:
   - smile_demo_theme/global-styling
 regions:
