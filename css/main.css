@@ -61,6 +61,7 @@
   padding: 14px;
   background-color: #FFF;
   border-bottom: 1px solid #01509b;
+  margin-bottom: 25px;
 }
 .newsletter input {
     border: none;
@@ -212,3 +213,57 @@
 .paragraph--type--paragraph-rich-text {
   padding: 25px;
 }
+
+.reassurance__item:hover .reassurance__inner {
+    border-color: #0048A9;
+}
+
+.reassurance__item a:hover {
+  text-decoration: none;
+}
+
+.reassurance__inner {
+    padding: 40px 20px;
+    display: block;
+    height: 320px;
+    text-decoration: none;
+    border: 1px solid #b2c8e5;
+    transition: 200ms;
+    text-align: center;
+}
+
+.reassurance__item svg:not(.no-anim) {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 200ms;
+}
+
+.reassurance__item:hover svg:not(.no-anim) {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.reassurance__item svg {
+    display: inline-block;
+    width: 81px;
+    height: 81px;
+}
+
+.reassurance__title {
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-family: 'BloggerSans','Ubuntu',sans-serif;
+    color: #0048A9;
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: .05em;
+}
+
+.reassurance__info {
+    line-height: 1.4;
+    color: #6e6e6e;
+}
+
